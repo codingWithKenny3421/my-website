@@ -1,0 +1,95 @@
+.intro{
+    width:80%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    left:10%;
+    right:10%;
+    top:50%;
+    transform:translateY(-50%)
+}
+.ityped-cursor {
+display:none
+  }
+  .role{
+    color:white;
+  }
+
+  .introSvg{
+      width:400px;
+      position:absolute;
+      right:15%
+  }
+  .intro_my_name{
+    font-size: 3rem;
+    opacity: 0.8;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+    position:absolute;
+    bottom:0;
+    left:20%
+
+  }
+  .text-animation{
+    position:absolute;
+    left:20%;
+    font-family: 'Poppins',sans-serif;
+    font-size:2rem;
+  }
+
+  @media (max-width:1200px){
+    .introSvg{
+      width:330px
+    }
+  .intro_my_name{
+    font-size:2.4rem;
+  }
+  .text-animation{
+    font-size:1.6rem;
+  }
+  
+  }
+
+  @media (max-width:1024px){
+    .introSvg{
+      width:280px
+    }
+  .intro_my_name{
+    font-size:2rem;
+  }
+  .text-animation{
+    font-size:1.3rem;
+  }
+  
+  }
+
+  @media (max-width:768px){
+    .introSvg{
+      width:230px
+    }
+  .intro_my_name{
+    font-size:1.7rem;
+  }
+  .text-animation{
+    font-size:1rem;
+  }
+  
+  }
+  @media (max-width:500px){
+    .introSvg{
+      width:200px;
+      position:absolute;
+      right:25%
+  }
+  .intro_my_name {
+    font-size:1.4rem;
+    bottom:250%;
+    left:32%
+  }
+  .text-animation{
+
+    left:30%;
+    top:350%
+  }
+  }
